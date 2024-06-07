@@ -5,7 +5,7 @@
 The "Invoice Generate" project is a simple tool designed to automate the generation of invoices for various products or services. It provides an easy-to-use interface for creating, managing, and retrieving invoices, making it an essential component for any business or individual needing streamlined invoicing solutions.
 
 
-## Live Link : 
+## Live Link : **[Invoice Generator](https://calm-taiyaki-7b8c53.netlify.app/)**
 
 ##  Technology
 
@@ -49,7 +49,7 @@ When you book a car with us, we show you the prices for different times. This he
 ###  Clone the Repository
 
 ```bash
-git clone https://github.com/Eshtiaque/Product-Management-Server.git
+git clone https://github.com/Eshtiaque/Invoice-Generate.git
 ```
 ###  Install Dependencies
 ```bash
