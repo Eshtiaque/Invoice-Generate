@@ -124,16 +124,16 @@ function ReservationForm() {
         navigate('/invoice', { state: { invoiceData: invoice } });
     };
     return (
-        <div className="lg:pt-4 md:p-4 p-4 lg:p-0">
-            <div className="flex justify-between items-center mb-6">
+        <div className="lg:pt-4 md:p-4 lg:p-0">
+            <div className="flex justify-between mt-4 mx-2 items-center mb-6">
                 <h1 className="text-3xl font-bold">Reservation</h1>
 
                 <button onClick={generateInvoice}  className="p-2 bg-blue-500 font-black text-white rounded">Print/Download</button>
             </div>
-            <div className="flex flex-wrap -mx-2">
-                <div className="w-full lg:w-2/3 px-2 mb-4">
-                    <div className="flex flex-wrap -mx-2">
-                        <div className="w-full md:w-1/2 px-2 mb-4">
+            <div className="flex flex-wrap">
+                <div className="w-full lg:w-2/3  mb-4">
+                    <div className="flex flex-wrap ">
+                        <div className="w-full md:w-1/2  mb-4">
                             <div className="bg-white shadow-md rounded-lg p-4">
                                 <h2 className="text-2xl font-bold mb-4">Reservation Details</h2>
                                 <hr className='border border-1 mb-2 border-blue-400' />

@@ -21,7 +21,7 @@ const Invoice = () => {
     vehicleType,
     vehicle,
     total,
-    carDetails, 
+    carDetails,
   } = invoiceData;
 
   const handlePrint = () => {
@@ -33,15 +33,15 @@ const Invoice = () => {
       <div className="flex justify-between items-center mb-8 ">
         <div className="flex">
           <div>
-           <img className="h-12 w-12 mt-1 me-2 rounded-lg" src={img} alt="" />
+            <img className="h-12 w-12 mt-1 me-2 rounded-lg" src={img} alt="" />
           </div>
           <div>
-          <h1 className="text-3xl font-bold text-gray-800">Invoice</h1>
-          <p className="text-sm text-gray-600">Reservation ID: {reservationID}</p>
+            <h1 className="text-3xl font-bold text-gray-800">Invoice</h1>
+            <p className="text-sm text-gray-600 ">Reservation ID: {reservationID}</p>
+          </div>
         </div>
-        </div>
-        
-        <button onClick={handlePrint} className="px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600 focus:outline-none">
+
+        <button onClick={handlePrint} className=" px-2 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600 focus:outline-none">
           Print Invoice
         </button>
       </div>
